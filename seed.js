@@ -22,7 +22,7 @@ const queryApi = async () => {
                 console.log(book.volumeInfo.description);
                 console.log(book.volumeInfo.industryIdentifiers[0]);
                 console.log(book.volumeInfo.imageLinks && book.volumeInfo.imageLinks.thumbnail);
-                console.log("======================================");
+                console.log("==============================================================================");
             }
     });
 
